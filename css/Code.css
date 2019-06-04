@@ -1,0 +1,93 @@
+#title_area{
+	background-color: #f3ffe5;
+	color: #5aadf6;
+	font-size: 20px;
+    font-weight: bold;
+    text-align:  center;
+}
+
+#unit{
+	text-align:  right
+}
+
+.study_zone{
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.text_area{
+	display:  inline-block;
+    width: calc(15% - 5px);
+    min-height:  45px;
+    border: solid 1px;
+    vertical-align:  top;
+    padding: 10px;
+    box-sizing:  border-box;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.time_area {
+    font-size: 20px;
+    font-weight: bold;
+    display:  inline-block;
+    width: calc(30% - 5px);
+    min-height:  45px;
+    border: solid 1px;
+    vertical-align:  top;
+    padding: 10px;
+    box-sizing:  border-box;
+}
+
+.effect1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+.btn {
+    display:  inline-block;
+    color:  #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.increase{
+    background-color: #FF9800;
+}
+
+.decrease{
+    background-color: #00BCD4;
+}
+
+.reset {
+    background-color: #bc00c1;
+}
+
+.total {
+    background-color: #ff75d1;
+}
+
+.icon {
+	background-color: #2196F3;
+    height:  20px;
+    width:  20px;
+    border-radius:  50%;
+    display:  inline-block;
+    margin: 2px;
+}
+
+#form{
+	background-color: #d9ecff;
+    text-align:  center;
+}
+
+#total_area{
+	color: #ff274a;
+	font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link href="css/Code.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div id="title_area">勉強管理</div>
+
+<div id="unit">
+	<div class="icon"></div>
+	<div>=1時間</div>
+</div>
+
+<div id="area">
+</div>
+
+<form id="form" name="test_form" onsubmit="return AddTable();">
+	<div>
+		<input type="text" name="text" placeholder="教科名">
+		<input type="submit" value="追加">
+	</div>
+</form>
+
+<input type="button" class="btn total" value="トータル表示" onclick="displayTime();"/>
+
+<script type="text/javascript" src="Scripts/index.js"></script>
+<div id="total_area">
+</div>
+</body>
+</html>
